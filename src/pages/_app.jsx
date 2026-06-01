@@ -5,6 +5,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <meta name="google-site-verification" content="Ji78ZzUoUvIuMa3Gnns8rtNiNBydOUqOWcW0-hmV9Uo" />
         {/* Primary Meta */}
         <title>TypeForge — Free Typing Speed Test & WPM Practice</title>
         <meta name="description" content="Free online typing speed test and WPM practice. Improve typing speed with structured lessons, character drills, speed tests, and typing games. No sign-up needed." />
