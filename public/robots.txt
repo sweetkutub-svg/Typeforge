@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# AI Crawlers — allow llms.txt
+User-agent: GPTBot
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Claude-Web
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: PerplexityBot
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: anthropic-ai
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: CCBot
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+Sitemap: https://typeforge.site/sitemap.xml
