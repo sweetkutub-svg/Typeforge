@@ -1,25 +1,128 @@
+# ============================================================
+# robots.txt — TypeForge (https://typeforge.site)
+# Last updated: 2025-06-01
+# ============================================================
+
+# ── Default: allow all crawlers ──────────────────────────────
 User-agent: *
 Allow: /
 
-# AI Crawlers — allow llms.txt
+# Block user-specific private pages from indexing
+Disallow: /dashboard
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow static assets needed for rendering
+Allow: /_next/static/
+Allow: /favicon.ico
+Allow: /android-chrome-192x192.png
+Allow: /android-chrome-512x512.png
+Allow: /og-image.png
+Allow: /sitemap.xml
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+
+# ── Google ───────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+Disallow: /dashboard
+Disallow: /api/
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /og-image.png
+
+User-agent: Googlebot-Video
+Disallow: /
+
+
+# ── Bing ─────────────────────────────────────────────────────
+User-agent: Bingbot
+Allow: /
+Disallow: /dashboard
+Disallow: /api/
+
+
+# ── AI Crawlers — explicitly allowed (llms.txt standard) ─────
 User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /dashboard
+Disallow: /api/
+
+User-agent: ChatGPT-User
+Allow: /
 Allow: /llms.txt
 Allow: /llms-full.txt
 
 User-agent: Claude-Web
+Allow: /
 Allow: /llms.txt
 Allow: /llms-full.txt
-
-User-agent: PerplexityBot
-Allow: /llms.txt
-Allow: /llms-full.txt
+Disallow: /dashboard
 
 User-agent: anthropic-ai
+Allow: /
 Allow: /llms.txt
 Allow: /llms-full.txt
+Disallow: /dashboard
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /dashboard
 
 User-agent: CCBot
+Allow: /
 Allow: /llms.txt
 Allow: /llms-full.txt
 
+User-agent: Applebot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Applebot-Extended
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: cohere-ai
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: meta-externalagent
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Bytespider
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+
+# ── Bad bots — explicitly blocked ────────────────────────────
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+
+# ── Sitemaps ─────────────────────────────────────────────────
 Sitemap: https://typeforge.site/sitemap.xml

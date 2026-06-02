@@ -184,7 +184,8 @@ export default function Home() {
       </main>
 
       <footer className="border-t border-border py-6 text-center text-text-secondary text-xs font-mono">
-        TypeForge © 2026 · Built for the keyboard-obsessed.
+        TypeForge © 2026 · Built for the keyboard-obsessed. · Developed by{' '}
+<a href="https://codewithkutub-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline underline-offset-4 transition-colors">Sk Kutubuddin</a>
       </footer>
     </div>
   );
