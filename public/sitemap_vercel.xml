@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ==========================================
+       TIER 1 — Core Pages (Priority 1.0 - 0.9)
+       Main money pages, highest crawl frequency
+  =========================================== -->
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/speed</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/lessons</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ==========================================
+       TIER 2 — High-Value SEO Landing Pages
+       From keyword research: high vol, low diff
+  =========================================== -->
+
+  <!-- Certificate keywords: diff 13, CPC $1.84, vol 1000 -->
+  <url>
+    <loc>https://typeforge-sk.vercel.app/typing-test-certificate</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 10-key: diff 0, vol 2900 — easiest rank possible -->
+  <url>
+    <loc>https://typeforge-sk.vercel.app/10-key-typing-test</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sentences: diff 11, vol 8100 — huge opportunity -->
+  <url>
+    <loc>https://typeforge-sk.vercel.app/typing-test-sentences</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Jobs: diff 25, CPC $14.45 — highest CPC in dataset -->
+  <url>
+    <loc>https://typeforge-sk.vercel.app/typing-test-for-jobs</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Data entry: diff 8, CPC $2.77, vol 480 -->
+  <url>
+    <loc>https://typeforge-sk.vercel.app/data-entry-typing-test</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Government exam: high intent, Indian market -->
+  <url>
+    <loc>https://typeforge-sk.vercel.app/typing-test-for-government-exam</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Spanish/Español: diff 17, vol 1300 — low competition -->
+  <url>
+    <loc>https://typeforge-sk.vercel.app/typing-test-espanol</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Paragraph: diff 35, vol 8100 -->
+  <url>
+    <loc>https://typeforge-sk.vercel.app/paragraph</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 5-minute: diff 27, vol 2400 -->
+  <url>
+    <loc>https://typeforge-sk.vercel.app/typing-test-5-minutes</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 3-minute: diff 12, vol 2400 -->
+  <url>
+    <loc>https://typeforge-sk.vercel.app/typing-test-3-minutes</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- KPH: diff 9, CPC $12.93 — niche but high value -->
+  <url>
+    <loc>https://typeforge-sk.vercel.app/kph-typing-test</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ==========================================
+       TIER 3 — Feature Pages (Priority 0.8)
+  =========================================== -->
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/char-drill</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/games</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/rank</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ==========================================
+       TIER 4 — Lesson Pages (Priority 0.7)
+       Individual practice pages
+  =========================================== -->
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/practice/1</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/practice/2</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/practice/3</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/practice/4</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/practice/5</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/practice/6</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/practice/7</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/practice/8</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/practice/9</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/practice/10</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ==========================================
+       TIER 5 — User Pages (noindex in HTML,
+       kept here for Googlebot discovery only)
+  =========================================== -->
+
+  <url>
+    <loc>https://typeforge-sk.vercel.app/dashboard</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
