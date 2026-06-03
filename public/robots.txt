@@ -1,5 +1,5 @@
 # ============================================================
-# robots.txt — TypeForge (https://typeforge.site)
+# robots.txt — TypeForge (https://typeforge-sk.vercel.app)
 # Last updated: 2026-06-02
 # ============================================================
 
@@ -125,4 +125,4 @@ Disallow: /
 
 
 # ── Sitemaps ─────────────────────────────────────────────────
-Sitemap: https://typeforge.site/sitemap.xml
+Sitemap: https://typeforge-sk.vercel.app/sitemap.xml
